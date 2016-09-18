@@ -1,8 +1,8 @@
 // Sidebar specific helper variables need to fallback to Bootstrap
 // variables.  This allows this specific _sidenav user experience
 // to easily cascade to a different Bootstrap theme
-$sidebar-active-color: $brand-primary !default;
 $sidebar-active-color: #2d394f;
+$sidebar-active-color: $brand-primary !default;
 $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-light inset !default;
 
 
