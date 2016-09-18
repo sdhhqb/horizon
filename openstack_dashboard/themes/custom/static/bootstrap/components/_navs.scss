@@ -1,6 +1,7 @@
 .nav-pills.nav-stacked {
   a {
-    color: $gray;
+    // color: $gray;
+    color: $white;
   }
 
   & > li {
@@ -23,4 +24,7 @@
   & > li > .in {
     // border-bottom: 1px solid $gray-light;
   }
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: $white;
 }

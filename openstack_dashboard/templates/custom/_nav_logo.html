@@ -5,6 +5,6 @@
 <!-- 单独的导航logo组件，供其他自定义主题的模板调用 -->
 <div class="nav-logo">
 	<a class="nav-brand" href="{% site_branding_link %}">
-	  <img class="openstack-logo" src="{{ STATIC_URL }}dashboard/img/logo.png" alt="{% site_branding %}">
+	  <img class="openstack-logo" data-navLogo="{{ NAV_LOGO_URL }}" src="{{ STATIC_URL }}dashboard/img/logo.png" alt="{% site_branding %}">
 	</a>	
 </div>

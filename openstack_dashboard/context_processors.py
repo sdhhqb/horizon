@@ -55,5 +55,7 @@ def openstack(request):
 
     # Adding webroot access
     context['WEBROOT'] = getattr(settings, "WEBROOT", "/")
+    
+    context['NAV_LOGO_URL'] = 'dashboard/img/logo2.png'
 
     return context
