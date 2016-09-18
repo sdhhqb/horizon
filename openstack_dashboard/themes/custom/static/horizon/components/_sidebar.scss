@@ -2,16 +2,20 @@
 // variables.  This allows this specific _sidenav user experience
 // to easily cascade to a different Bootstrap theme
 $sidebar-active-color: $brand-primary !default;
+$sidebar-active-color: #2d394f;
 $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-light inset !default;
 
 
 #sidebar {
+  top: 0;
+  padding-top: 60px;
+
   background-color: $sidebar-background-color;
   @include box-shadow($sidebar-box-shadow);
   height: 100%;
 
   // Legacy padding at the top of nav ... we should remove this.
-  padding-top: $line-height-computed;
+  // padding-top: $line-height-computed;
 
   .nav-header > a > .nav-header-title {
     text-align: left;
