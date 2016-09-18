@@ -40,7 +40,4 @@ def horizon(request):
                "True": True,
                "False": False}
 
-    context['WEBROOT'] = getattr(settings, "WEBROOT", "/")
-    context['STATIC_URL'] = getattr(settings, "STATIC_URL", "/staticabc/")
-
     return context

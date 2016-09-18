@@ -1,0 +1,7 @@
+{% load branding i18n %}
+{% load url from future %}
+{% load context_selection %}
+
+<a class="navbar-brand" href="{% site_branding_link %}">
+  <img class="openstack-logo" src="{{ STATIC_URL }}dashboard/img/logo.png" alt="{% site_branding %}">
+</a>

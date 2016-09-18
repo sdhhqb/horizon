@@ -30,7 +30,9 @@
         <div id='main_content'>
           {% include "horizon/_messages.html" %}
           {% block sidebar %}
+            {% include "custom/_nav_logo.html" %}
             {% include 'horizon/common/_sidebar.html' %}
+            }
           {% endblock %}
           <div id='content_body'>
             <div class="row">
