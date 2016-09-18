@@ -8,7 +8,7 @@ $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-ligh
 
 #sidebar {
   top: 0;
-  padding-top: 60px;
+  padding-top: 80px;
 
   background-color: $sidebar-background-color;
   @include box-shadow($sidebar-box-shadow);
@@ -87,6 +87,24 @@ $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-ligh
       .openstack-toggle.fa {
         @include rotate(180deg);
       }
+    }
+  }
+}
+
+/*侧边栏上方的logo*/
+#main_content {
+  & > .nav-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 80px;
+    z-index: 1;
+
+    .openstack-logo {
+      width: 180px;
+      height: 40px;
+      margin-top: 20px;
     }
   }
 }
