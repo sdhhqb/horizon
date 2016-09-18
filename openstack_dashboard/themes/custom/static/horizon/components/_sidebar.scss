@@ -2,6 +2,9 @@
 // variables.  This allows this specific _sidenav user experience
 // to easily cascade to a different Bootstrap theme
 $sidebar-background-color: #2d394f;
+$sidebar-active-color: #5fc0af;
+$nav-pills-active-link-hover-bg: #5fc0af;
+
 $sidebar-active-color: $brand-primary !default;
 $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-light inset !default;
 
@@ -25,7 +28,7 @@ $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-ligh
     text-align: left;
     text-transform: none;
     padding: $padding-small-vertical 0;
-    border-bottom: $padding-base-vertical/2 solid $gray-light;
+    // border-bottom: $padding-base-vertical/2 solid $gray-light;
   }
 
   .panel {
@@ -48,9 +51,9 @@ $sidebar-box-shadow:  -3px 2px 6px -2px $gray-light inset, -1px 0 0 0 $gray-ligh
       font-weight: normal;
       color: $sidebar-active-color;
       background: $body-bg;
-      border-bottom: 1px solid $dropdown-divider-bg;
-      border-left: $sidebar-active-indicator-width solid $sidebar-active-color;
-      border-top: 1px solid $dropdown-divider-bg;
+      // border-bottom: 1px solid $dropdown-divider-bg;
+      // border-left: $sidebar-active-indicator-width solid $sidebar-active-color;
+      // border-top: 1px solid $dropdown-divider-bg;
       @include box-shadow($sidebar-active-box-shadow $sidebar-box-shadow-color);
     }
   }
